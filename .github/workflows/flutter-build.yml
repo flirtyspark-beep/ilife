@@ -1,0 +1,62 @@
+#name: Flutter AAB Build
+#
+#on:
+#  push:
+#    branches:
+#      - main
+##      - vishesha
+#
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      # 📥 Checkout
+#      - name: Checkout
+#        uses: actions/checkout@v4
+#
+#      # ☕ Java
+#      - name: Setup Java
+#        uses: actions/setup-java@v4
+#        with:
+#          distribution: 'temurin'
+#          java-version: '17'
+#          cache: gradle
+#
+#      # 🐦 Flutter
+#      - name: Setup Flutter
+#        uses: subosito/flutter-action@v2
+#        with:
+#          flutter-version: '3.41.7'
+#          cache: true
+#
+#      # 📦 Cache Pub dependencies
+#      - name: Cache Pub
+#        uses: actions/cache@v4
+#        with:
+#          path: |
+#            ~/.pub-cache
+#            .dart_tool
+#          key: pub-${{ runner.os }}-${{ hashFiles('**/pubspec.lock') }}
+#          restore-keys: |
+#            pub-${{ runner.os }}
+#
+#      # 📦 Install dependencies
+#      - name: Get dependencies
+#        run: flutter pub get
+#
+#      # 🔐 Firebase config
+#      - name: Create google-services.json
+#        run: |
+#          echo '${{ secrets.GOOGLE_SERVICES_JSON }}' > android/app/google-services.json
+#
+#      # 🏗 Build AAB (optimized)
+#      - name: Build AAB
+#        run: flutter build appbundle --release --no-tree-shake-icons
+#
+#      # 📤 Upload artifact
+#      - name: Upload AAB
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: app-release-aab
+#          path: build/app/outputs/bundle/release/app-release.aab

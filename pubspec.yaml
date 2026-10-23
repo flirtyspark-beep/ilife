@@ -1,0 +1,147 @@
+name: ilife
+description: "A new Flutter project develop by Vishesha Sanadhya."
+publish_to: 'none'
+
+# version: 1.0.0+1 # Appstore Version
+version: 1.0.0+1 # Playstore Version
+
+environment:
+  sdk: '>=3.12.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  carousel_slider: ^5.1.2
+  dots_indicator: ^4.0.1
+  lottie: ^3.5.1
+  shimmer: ^3.0.0
+  blurrycontainer: ^2.1.0
+  google_fonts: ^8.2.0
+  dropdown_button2: ^3.1.0
+  dotted_line: ^3.3.0
+  simple_ripple_animation: ^0.1.0
+  gradient_borders: ^1.0.4
+  flutter_staggered_grid_view: ^0.7.0
+  dismissible_page: ^1.0.2
+
+  # State Management & Storage
+  get: ^4.7.3
+  get_storage: ^2.1.1
+  provider: ^6.1.5+1 # later on we remove it from greedy game
+  responsive_sizer: ^3.3.1
+
+  # Firebase
+  firebase_core: ^4.12.1
+  firebase_auth: ^6.5.6
+  firebase_messaging: ^16.4.3
+
+  # Authentication
+  google_sign_in: ^7.2.0
+  flutter_facebook_auth: ^7.2.0
+
+  # Notifications
+  awesome_notifications: ^0.11.0
+
+  # Network & APIs
+  http: ^1.6.0
+  http_parser: ^4.1.2
+  connectivity_plus: ^7.3.1
+  socket_io_client: ^3.1.6
+
+  # Payments
+  incodes_payment: ^1.0.7
+  razorpay_flutter: ^1.4.5
+  flutter_stripe: ^13.1.0
+  flutterwave_standard: ^1.1.0
+  in_app_purchase: ^3.3.0
+
+  # Audio & Voice
+  audioplayers: ^6.8.1
+  record: ^7.1.1
+  vibration: ^3.2.0
+  flutter_ringtone_player: ^4.0.0+4
+
+  # Video & Calling
+  agora_rtc_engine: ^6.5.4
+  livekit_client: ^2.12.0
+  camera: ^0.12.0+2
+  video_player: ^2.13.0
+  chewie: ^1.13.1
+  video_thumbnail: ^0.5.6
+  ffmpeg_kit_flutter_new: ^4.6.0
+
+  # Media & Images
+  image_picker: ^1.2.3
+  cached_network_image: ^3.4.1
+  flutter_cache_manager: ^3.4.2
+  flutter_svga: ^0.0.6
+
+  # File Management
+  file_picker: ^11.0.3
+  path_provider: ^2.1.6
+  share_plus: ^12.0.2
+
+  # Device Features & Permissions
+  permission_handler: ^12.0.3
+  proximity_screen_lock: ^2.3.0
+  screen_secure: ^1.0.3
+  wakelock_plus: ^1.5.2
+
+  # Country & Localization
+  country_picker: ^2.0.28
+  date_picker_plus: ^7.0.1
+
+  # HTML & Content
+  flutter_html: ^3.0.0
+
+  # Utilities & Maintenance
+  intl: ^0.20.3
+  fluttertoast: ^8.2.14
+  url_launcher: ^6.3.2
+  in_app_update: ^4.2.5
+  flutter_inappwebview: ^6.1.5
+
+  device_info_plus: any
+  dio: any
+  in_app_purchase_android: any
+  in_app_purchase_storekit: any
+  app_links: ^6.4.0
+  preload_page_view: ^0.2.0
+  in_app_review: ^2.0.10
+  package_info_plus: ^9.0.0
+  play_install_referrer: ^0.5.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/logo.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#fbc71d"
+  adaptive_icon_foreground: "assets/icons/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/gif/
+    - assets/lottie/
+    - assets/json/
+    - assets/audio/
+    - assets/sounds/
+    - assets/country/
+    - assets/videos/
+    - assets/images/fruits/
+    - assets/images/pizza_toppings/
+    - assets/images/chips/
+    - assets/images/frames/
+    - assets/images/wheel/

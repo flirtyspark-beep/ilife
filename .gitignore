@@ -1,0 +1,67 @@
+############################
+# General / OS
+############################
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+############################
+# IDEs
+############################
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+############################
+# Flutter / Dart
+############################
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+coverage/
+build/
+
+# Flutter generated
+flutter_assets/
+kernel_blob.bin
+
+############################
+# Android
+############################
+android/.gradle/
+android/local.properties
+android/gradle.properties
+android/app/build/
+
+# Some projects have this structure
+app/build/
+
+# APK / AAB
+*.apk
+*.aab
+
+############################
+# iOS
+############################
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/.last_build_id
+
+############################
+# Logs
+############################
+*.log
+*.hprof
+*.widget_preview/
+

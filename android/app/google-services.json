@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "854863099039",
+    "project_id": "ilife-86faa",
+    "storage_bucket": "ilife-86faa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854863099039:android:5693e29cc29afb3d031eaa",
+        "android_client_info": {
+          "package_name": "com.flirtyspark.ilife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854863099039-r73k4pvda523eh2g9q1c5hv4c0gn2msb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flirtyspark.ilife",
+            "certificate_hash": "1d1e3eaec68a802438f24d1fe87968093f609c5c"
+          }
+        },
+        {
+          "client_id": "854863099039-n2dv1mblu0192p9hmd6hjs873e1sa3mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY0wXqIqcgCpNPfBMlEFKFcxk6Ma8mTeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854863099039-n2dv1mblu0192p9hmd6hjs873e1sa3mt.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854863099039-47sp62flvhgmgu49pgcvrv1bv8ckmhud.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flirtyspark.ilife"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
